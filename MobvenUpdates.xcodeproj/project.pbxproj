@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D57C3BF231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D57C3C7231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */; };
+		6D57C3C8231FFA2B001B669A /* MobvenUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */; };
+		6D84BFF9231D0072006AF050 /* MobvenUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D84BFF7231D0072006AF050 /* MobvenUpdates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D84C006231D0088006AF050 /* MobvenUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84C005231D0088006AF050 /* MobvenUpdates.swift */; };
+		6D93D0912327AB5F007AA006 /* UserDetaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D0902327AB5F007AA006 /* UserDetaultsExtension.swift */; };
+		6D93D0942327ABF1007AA006 /* RemoteConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D0932327ABF1007AA006 /* RemoteConfigModel.swift */; };
+		6D93D0962327AE16007AA006 /* RemoteConfigExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D0952327AE16007AA006 /* RemoteConfigExtension.swift */; };
+		6D93D0992327B101007AA006 /* MobvenUpdatesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D0982327B101007AA006 /* MobvenUpdatesResult.swift */; };
+		6D93D09C2327B66B007AA006 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09B2327B66B007AA006 /* APIManager.swift */; };
+		6D93D09E2327B6EC007AA006 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09D2327B6EC007AA006 /* ItunesModel.swift */; };
+		6D93D0A02327E2DA007AA006 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09F2327E2DA007AA006 /* StringExtension.swift */; };
+		6D93D0AE2327EFA8007AA006 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */; };
+		6D93D0AF2327EFA8007AA006 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */; };
+		6D93D0B02327EFA8007AA006 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A52327EFA8007AA006 /* FirebaseInstanceID.framework */; };
+		6D93D0B12327EFA8007AA006 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A62327EFA8007AA006 /* GoogleAppMeasurement.framework */; };
+		6D93D0B22327EFA8007AA006 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A72327EFA8007AA006 /* GoogleUtilities.framework */; };
+		6D93D0B32327EFA8007AA006 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A82327EFA8007AA006 /* Protobuf.framework */; };
+		6D93D0B42327EFA8007AA006 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A92327EFA8007AA006 /* FirebaseCore.framework */; };
+		6D93D0B52327EFA8007AA006 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AA2327EFA8007AA006 /* GoogleToolboxForMac.framework */; };
+		6D93D0B62327EFA8007AA006 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */; };
+		6D93D0B72327EFA8007AA006 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AC2327EFA8007AA006 /* nanopb.framework */; };
+		6D93D0B82327EFA8007AA006 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D57C3BB231FE2B6001B669A /* MobvenUpdates_RemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobvenUpdates_RemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobvenUpdate_RemoteConfig.h; sourceTree = "<group>"; };
+		6D57C3BE231FE2B6001B669A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MobvenUpdate+RemoteConfig.swift"; sourceTree = "<group>"; };
+		6D57C3C9231FFC48001B669A /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = "../../AtlasGlobal-IOS/Atlasglobal/ThirdPartyConfigurations/Firbase/FirebaseMessaging.framework"; sourceTree = "<group>"; };
+		6D57C3CB231FFEEC001B669A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "../../AtlasGlobal-IOS/Atlasglobal/ThirdPartyConfigurations/Firbase/FirebaseCore.framework"; sourceTree = "<group>"; };
+		6D57C40B2320F723001B669A /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = "../../AtlasGlobal-IOS/Atlasglobal/ThirdPartyConfigurations/Firbase/FIRAnalyticsConnector.framework"; sourceTree = "<group>"; };
+		6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobvenUpdates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D84BFF7231D0072006AF050 /* MobvenUpdates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobvenUpdates.h; sourceTree = "<group>"; };
+		6D84BFF8231D0072006AF050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D84C005231D0088006AF050 /* MobvenUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobvenUpdates.swift; sourceTree = "<group>"; };
+		6D93D0902327AB5F007AA006 /* UserDetaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetaultsExtension.swift; sourceTree = "<group>"; };
+		6D93D0932327ABF1007AA006 /* RemoteConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigModel.swift; sourceTree = "<group>"; };
+		6D93D0952327AE16007AA006 /* RemoteConfigExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigExtension.swift; sourceTree = "<group>"; };
+		6D93D0982327B101007AA006 /* MobvenUpdatesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobvenUpdatesResult.swift; sourceTree = "<group>"; };
+		6D93D09B2327B66B007AA006 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		6D93D09D2327B6EC007AA006 /* ItunesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesModel.swift; sourceTree = "<group>"; };
+		6D93D09F2327E2DA007AA006 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FIRAnalyticsConnector.framework"; sourceTree = "<group>"; };
+		6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseABTesting.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseABTesting.framework"; sourceTree = "<group>"; };
+		6D93D0A52327EFA8007AA006 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
+		6D93D0A62327EFA8007AA006 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		6D93D0A72327EFA8007AA006 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		6D93D0A82327EFA8007AA006 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/Protobuf.framework"; sourceTree = "<group>"; };
+		6D93D0A92327EFA8007AA006 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseCore.framework"; sourceTree = "<group>"; };
+		6D93D0AA2327EFA8007AA006 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
+		6D93D0AC2327EFA8007AA006 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/nanopb.framework"; sourceTree = "<group>"; };
+		6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D57C3B8231FE2B6001B669A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D57C3C8231FFA2B001B669A /* MobvenUpdates.framework in Frameworks */,
+				6D93D0AE2327EFA8007AA006 /* FIRAnalyticsConnector.framework in Frameworks */,
+				6D93D0AF2327EFA8007AA006 /* FirebaseABTesting.framework in Frameworks */,
+				6D93D0B02327EFA8007AA006 /* FirebaseInstanceID.framework in Frameworks */,
+				6D93D0B12327EFA8007AA006 /* GoogleAppMeasurement.framework in Frameworks */,
+				6D93D0B22327EFA8007AA006 /* GoogleUtilities.framework in Frameworks */,
+				6D93D0B32327EFA8007AA006 /* Protobuf.framework in Frameworks */,
+				6D93D0B42327EFA8007AA006 /* FirebaseCore.framework in Frameworks */,
+				6D93D0B52327EFA8007AA006 /* GoogleToolboxForMac.framework in Frameworks */,
+				6D93D0B62327EFA8007AA006 /* FirebaseAnalytics.framework in Frameworks */,
+				6D93D0B72327EFA8007AA006 /* nanopb.framework in Frameworks */,
+				6D93D0B82327EFA8007AA006 /* FirebaseRemoteConfig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D84BFF1231D0072006AF050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D57C3BC231FE2B6001B669A /* MobvenUpdates+RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D08F2327AB4B007AA006 /* Extensions */,
+				6D93D0922327ABDD007AA006 /* Models */,
+				6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */,
+				6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */,
+				6D57C3BE231FE2B6001B669A /* Info.plist */,
+			);
+			path = "MobvenUpdates+RemoteConfig";
+			sourceTree = "<group>";
+		};
+		6D57C3C3231FF9BC001B669A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D57C40B2320F723001B669A /* FIRAnalyticsConnector.framework */,
+				6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */,
+				6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */,
+				6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */,
+				6D93D0A92327EFA8007AA006 /* FirebaseCore.framework */,
+				6D93D0A52327EFA8007AA006 /* FirebaseInstanceID.framework */,
+				6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */,
+				6D93D0A62327EFA8007AA006 /* GoogleAppMeasurement.framework */,
+				6D93D0AA2327EFA8007AA006 /* GoogleToolboxForMac.framework */,
+				6D93D0A72327EFA8007AA006 /* GoogleUtilities.framework */,
+				6D93D0AC2327EFA8007AA006 /* nanopb.framework */,
+				6D93D0A82327EFA8007AA006 /* Protobuf.framework */,
+				6D57C3CB231FFEEC001B669A /* FirebaseCore.framework */,
+				6D57C3C9231FFC48001B669A /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D84BFEA231D0072006AF050 = {
+			isa = PBXGroup;
+			children = (
+				6D84BFF6231D0072006AF050 /* MobvenUpdates */,
+				6D57C3BC231FE2B6001B669A /* MobvenUpdates+RemoteConfig */,
+				6D84BFF5231D0072006AF050 /* Products */,
+				6D57C3C3231FF9BC001B669A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D84BFF5231D0072006AF050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */,
+				6D57C3BB231FE2B6001B669A /* MobvenUpdates_RemoteConfig.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D84BFF6231D0072006AF050 /* MobvenUpdates */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D09A2327B65E007AA006 /* Managers */,
+				6D93D08C2327AB0C007AA006 /* Extensions */,
+				6D93D0972327B0EC007AA006 /* Models */,
+				6D84C005231D0088006AF050 /* MobvenUpdates.swift */,
+				6D84BFF7231D0072006AF050 /* MobvenUpdates.h */,
+				6D84BFF8231D0072006AF050 /* Info.plist */,
+			);
+			path = MobvenUpdates;
+			sourceTree = "<group>";
+		};
+		6D93D08C2327AB0C007AA006 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D09F2327E2DA007AA006 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D93D08F2327AB4B007AA006 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D0902327AB5F007AA006 /* UserDetaultsExtension.swift */,
+				6D93D0952327AE16007AA006 /* RemoteConfigExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D93D0922327ABDD007AA006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D0932327ABF1007AA006 /* RemoteConfigModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D93D0972327B0EC007AA006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D0982327B101007AA006 /* MobvenUpdatesResult.swift */,
+				6D93D09D2327B6EC007AA006 /* ItunesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D93D09A2327B65E007AA006 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6D93D09B2327B66B007AA006 /* APIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D57C3B6231FE2B6001B669A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D57C3BF231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D84BFEF231D0072006AF050 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D84BFF9231D0072006AF050 /* MobvenUpdates.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D57C3BA231FE2B6001B669A /* MobvenUpdates+RemoteConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D57C3C2231FE2B6001B669A /* Build configuration list for PBXNativeTarget "MobvenUpdates+RemoteConfig" */;
+			buildPhases = (
+				6D57C3B6231FE2B6001B669A /* Headers */,
+				6D57C3B7231FE2B6001B669A /* Sources */,
+				6D57C3B8231FE2B6001B669A /* Frameworks */,
+				6D57C3B9231FE2B6001B669A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobvenUpdates+RemoteConfig";
+			productName = "MobvenUpdate+RemoteConfig";
+			productReference = 6D57C3BB231FE2B6001B669A /* MobvenUpdates_RemoteConfig.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D84BFF3231D0072006AF050 /* MobvenUpdates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D84BFFC231D0072006AF050 /* Build configuration list for PBXNativeTarget "MobvenUpdates" */;
+			buildPhases = (
+				6D84BFEF231D0072006AF050 /* Headers */,
+				6D84BFF0231D0072006AF050 /* Sources */,
+				6D84BFF1231D0072006AF050 /* Frameworks */,
+				6D84BFF2231D0072006AF050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobvenUpdates;
+			productName = MobvenUpdates;
+			productReference = 6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D84BFEB231D0072006AF050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mobven Technology";
+				TargetAttributes = {
+					6D57C3BA231FE2B6001B669A = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					6D84BFF3231D0072006AF050 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 6D84BFEE231D0072006AF050 /* Build configuration list for PBXProject "MobvenUpdates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D84BFEA231D0072006AF050;
+			productRefGroup = 6D84BFF5231D0072006AF050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D84BFF3231D0072006AF050 /* MobvenUpdates */,
+				6D57C3BA231FE2B6001B669A /* MobvenUpdates+RemoteConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D57C3B9231FE2B6001B669A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D84BFF2231D0072006AF050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D57C3B7231FE2B6001B669A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D93D0912327AB5F007AA006 /* UserDetaultsExtension.swift in Sources */,
+				6D93D0962327AE16007AA006 /* RemoteConfigExtension.swift in Sources */,
+				6D93D0942327ABF1007AA006 /* RemoteConfigModel.swift in Sources */,
+				6D57C3C7231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D84BFF0231D0072006AF050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D93D09C2327B66B007AA006 /* APIManager.swift in Sources */,
+				6D93D09E2327B6EC007AA006 /* ItunesModel.swift in Sources */,
+				6D93D0A02327E2DA007AA006 /* StringExtension.swift in Sources */,
+				6D93D0992327B101007AA006 /* MobvenUpdatesResult.swift in Sources */,
+				6D84C006231D0088006AF050 /* MobvenUpdates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D57C3C0231FE2B6001B669A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8K4AGMF967;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobvenUpdate+RemoteConfig/ThirdPartyConfigs/Firebase",
+					"$(PROJECT_DIR)/MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MobvenUpdates+RemoteConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobven.MobvenUpdate-RemoteConfig";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D57C3C1231FE2B6001B669A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8K4AGMF967;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobvenUpdate+RemoteConfig/ThirdPartyConfigs/Firebase",
+					"$(PROJECT_DIR)/MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MobvenUpdates+RemoteConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobven.MobvenUpdate-RemoteConfig";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D84BFFA231D0072006AF050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D84BFFB231D0072006AF050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D84BFFD231D0072006AF050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8K4AGMF967;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobvenUpdates/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobven.MobvenUpdates;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D84BFFE231D0072006AF050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8K4AGMF967;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobvenUpdates/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobven.MobvenUpdates;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D57C3C2231FE2B6001B669A /* Build configuration list for PBXNativeTarget "MobvenUpdates+RemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D57C3C0231FE2B6001B669A /* Debug */,
+				6D57C3C1231FE2B6001B669A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D84BFEE231D0072006AF050 /* Build configuration list for PBXProject "MobvenUpdates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D84BFFA231D0072006AF050 /* Debug */,
+				6D84BFFB231D0072006AF050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D84BFFC231D0072006AF050 /* Build configuration list for PBXNativeTarget "MobvenUpdates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D84BFFD231D0072006AF050 /* Debug */,
+				6D84BFFE231D0072006AF050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D84BFEB231D0072006AF050 /* Project object */;
+}

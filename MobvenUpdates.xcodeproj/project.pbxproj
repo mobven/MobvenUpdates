@@ -12,6 +12,19 @@
 		6D308F922338BF320007FA60 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09D2327B6EC007AA006 /* ItunesModel.swift */; };
 		6D308F932338BF350007FA60 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09F2327E2DA007AA006 /* StringExtension.swift */; };
 		6D308F942338BF370007FA60 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09B2327B66B007AA006 /* APIManager.swift */; };
+		6D308F9D2339065E0007FA60 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */; };
+		6D308F9E2339065E0007FA60 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */; };
+		6D308F9F2339065E0007FA60 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */; };
+		6D308FA02339065E0007FA60 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A92327EFA8007AA006 /* FirebaseCore.framework */; };
+		6D308FA12339065E0007FA60 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A52327EFA8007AA006 /* FirebaseInstanceID.framework */; };
+		6D308FA22339065E0007FA60 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */; };
+		6D308FA62339065E0007FA60 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AA2327EFA8007AA006 /* GoogleToolboxForMac.framework */; };
+		6D308FA72339065E0007FA60 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A72327EFA8007AA006 /* GoogleUtilities.framework */; };
+		6D308FA82339065E0007FA60 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AC2327EFA8007AA006 /* nanopb.framework */; };
+		6D308FA92339065E0007FA60 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A82327EFA8007AA006 /* Protobuf.framework */; };
+		6D308FAD233912130007FA60 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D308FAC233912130007FA60 /* StoreKit.framework */; };
+		6D308FAE233912330007FA60 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D308F9A233906380007FA60 /* GoogleDataTransport.framework */; };
+		6D308FAF233912A90007FA60 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A62327EFA8007AA006 /* GoogleAppMeasurement.framework */; };
 		6D57C3BF231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D57C3C7231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */; };
 		6D57C3C8231FFA2B001B669A /* MobvenUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */; };
@@ -24,20 +37,13 @@
 		6D93D09C2327B66B007AA006 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09B2327B66B007AA006 /* APIManager.swift */; };
 		6D93D09E2327B6EC007AA006 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09D2327B6EC007AA006 /* ItunesModel.swift */; };
 		6D93D0A02327E2DA007AA006 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09F2327E2DA007AA006 /* StringExtension.swift */; };
-		6D93D0AE2327EFA8007AA006 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */; };
-		6D93D0AF2327EFA8007AA006 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */; };
-		6D93D0B02327EFA8007AA006 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A52327EFA8007AA006 /* FirebaseInstanceID.framework */; };
-		6D93D0B12327EFA8007AA006 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A62327EFA8007AA006 /* GoogleAppMeasurement.framework */; };
-		6D93D0B22327EFA8007AA006 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A72327EFA8007AA006 /* GoogleUtilities.framework */; };
-		6D93D0B32327EFA8007AA006 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A82327EFA8007AA006 /* Protobuf.framework */; };
-		6D93D0B42327EFA8007AA006 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0A92327EFA8007AA006 /* FirebaseCore.framework */; };
-		6D93D0B52327EFA8007AA006 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AA2327EFA8007AA006 /* GoogleToolboxForMac.framework */; };
-		6D93D0B62327EFA8007AA006 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */; };
-		6D93D0B72327EFA8007AA006 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AC2327EFA8007AA006 /* nanopb.framework */; };
-		6D93D0B82327EFA8007AA006 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D308F99233906380007FA60 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleDataTransportCCTSupport.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/GoogleDataTransportCCTSupport.framework"; sourceTree = "<group>"; };
+		6D308F9A233906380007FA60 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleDataTransport.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/GoogleDataTransport.framework"; sourceTree = "<group>"; };
+		6D308FAA2339068B0007FA60 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseCoreDiagnostics.framework"; sourceTree = "<group>"; };
+		6D308FAC233912130007FA60 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6D57C3BB231FE2B6001B669A /* MobvenUpdates_RemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobvenUpdates_RemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobvenUpdate_RemoteConfig.h; sourceTree = "<group>"; };
 		6D57C3BE231FE2B6001B669A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,18 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D308FAD233912130007FA60 /* StoreKit.framework in Frameworks */,
 				6D57C3C8231FFA2B001B669A /* MobvenUpdates.framework in Frameworks */,
-				6D93D0AE2327EFA8007AA006 /* FIRAnalyticsConnector.framework in Frameworks */,
-				6D93D0AF2327EFA8007AA006 /* FirebaseABTesting.framework in Frameworks */,
-				6D93D0B02327EFA8007AA006 /* FirebaseInstanceID.framework in Frameworks */,
-				6D93D0B12327EFA8007AA006 /* GoogleAppMeasurement.framework in Frameworks */,
-				6D93D0B22327EFA8007AA006 /* GoogleUtilities.framework in Frameworks */,
-				6D93D0B32327EFA8007AA006 /* Protobuf.framework in Frameworks */,
-				6D93D0B42327EFA8007AA006 /* FirebaseCore.framework in Frameworks */,
-				6D93D0B52327EFA8007AA006 /* GoogleToolboxForMac.framework in Frameworks */,
-				6D93D0B62327EFA8007AA006 /* FirebaseAnalytics.framework in Frameworks */,
-				6D93D0B72327EFA8007AA006 /* nanopb.framework in Frameworks */,
-				6D93D0B82327EFA8007AA006 /* FirebaseRemoteConfig.framework in Frameworks */,
+				6D308F9D2339065E0007FA60 /* FIRAnalyticsConnector.framework in Frameworks */,
+				6D308F9E2339065E0007FA60 /* FirebaseABTesting.framework in Frameworks */,
+				6D308F9F2339065E0007FA60 /* FirebaseAnalytics.framework in Frameworks */,
+				6D308FA02339065E0007FA60 /* FirebaseCore.framework in Frameworks */,
+				6D308FA12339065E0007FA60 /* FirebaseInstanceID.framework in Frameworks */,
+				6D308FA22339065E0007FA60 /* FirebaseRemoteConfig.framework in Frameworks */,
+				6D308FAE233912330007FA60 /* GoogleDataTransport.framework in Frameworks */,
+				6D308FAF233912A90007FA60 /* GoogleAppMeasurement.framework in Frameworks */,
+				6D308FA62339065E0007FA60 /* GoogleToolboxForMac.framework in Frameworks */,
+				6D308FA72339065E0007FA60 /* GoogleUtilities.framework in Frameworks */,
+				6D308FA82339065E0007FA60 /* nanopb.framework in Frameworks */,
+				6D308FA92339065E0007FA60 /* Protobuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +122,10 @@
 		6D57C3C3231FF9BC001B669A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D308FAC233912130007FA60 /* StoreKit.framework */,
+				6D308FAA2339068B0007FA60 /* FirebaseCoreDiagnostics.framework */,
+				6D308F9A233906380007FA60 /* GoogleDataTransport.framework */,
+				6D308F99233906380007FA60 /* GoogleDataTransportCCTSupport.framework */,
 				6D57C40B2320F723001B669A /* FIRAnalyticsConnector.framework */,
 				6D93D0A32327EFA8007AA006 /* FIRAnalyticsConnector.framework */,
 				6D93D0A42327EFA8007AA006 /* FirebaseABTesting.framework */,

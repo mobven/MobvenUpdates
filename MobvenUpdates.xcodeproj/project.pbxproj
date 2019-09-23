@@ -236,6 +236,7 @@
 				6D57C3B7231FE2B6001B669A /* Sources */,
 				6D57C3B8231FE2B6001B669A /* Frameworks */,
 				6D57C3B9231FE2B6001B669A /* Resources */,
+				6D308F982338F6C80007FA60 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -317,6 +318,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D308F982338F6C80007FA60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/MobvenUpdates.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D57C3B7231FE2B6001B669A /* Sources */ = {

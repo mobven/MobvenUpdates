@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D308F8B2338ADA60007FA60 /* MobvenUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84C005231D0088006AF050 /* MobvenUpdates.swift */; };
-		6D308F8C2338B0920007FA60 /* MobvenUpdatesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D0982327B101007AA006 /* MobvenUpdatesResult.swift */; };
-		6D308F8D2338B0A80007FA60 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09B2327B66B007AA006 /* APIManager.swift */; };
-		6D308F8E2338B0B40007FA60 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09D2327B6EC007AA006 /* ItunesModel.swift */; };
-		6D308F8F2338B0BC0007FA60 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09F2327E2DA007AA006 /* StringExtension.swift */; };
 		6D57C3BF231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D57C3C7231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */; };
 		6D57C3C8231FFA2B001B669A /* MobvenUpdates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D84BFF4231D0072006AF050 /* MobvenUpdates.framework */; };
@@ -327,11 +322,6 @@
 				6D93D0962327AE16007AA006 /* RemoteConfigExtension.swift in Sources */,
 				6D93D0942327ABF1007AA006 /* RemoteConfigModel.swift in Sources */,
 				6D57C3C7231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift in Sources */,
-				6D308F8B2338ADA60007FA60 /* MobvenUpdates.swift in Sources */,
-				6D308F8C2338B0920007FA60 /* MobvenUpdatesResult.swift in Sources */,
-				6D308F8E2338B0B40007FA60 /* ItunesModel.swift in Sources */,
-				6D308F8F2338B0BC0007FA60 /* StringExtension.swift in Sources */,
-				6D308F8D2338B0A80007FA60 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

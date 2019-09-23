@@ -38,10 +38,10 @@ extension RemoteConfig {
     }
     
     func initalizeConfig(inDeveloperMode isDeveloperModeEnabled: Bool) {
-        configSettings = RemoteConfigSettings(developerModeEnabled: isDeveloperModeEnabled)
+        configSettings = RemoteConfigSettings()
         // If your app is using developer mode, expirationDuration is set to 0, so each fetch will
         // retrieve values from the service.
-        if configSettings.isDeveloperModeEnabled || UserDefaults.standard.remoteConfigIsStale {
+        if isDeveloperModeEnabled || UserDefaults.standard.remoteConfigIsStale {
             RemoteConfig.expirationDuration = 0
         }
     }
@@ -50,7 +50,11 @@ extension RemoteConfig {
         fetch(withExpirationDuration: RemoteConfig.expirationDuration) { [ weak self ] (fetchStatus, error) in
             if fetchStatus == .success {
                 UserDefaults.standard.setRemoteConfigState(stale: false)
-                self?.activateFetched()
+                self?.activate(completionHandler: { (error) in
+                    if let error = error {
+                        debugPrint("MobvenUpdates: RemoteConfig.activate() failed with error: \(error.localizedDescription)")
+                    }
+                })
             }
             if let remoteConfigModel = self?.remoteConfigModel {
                 completion(

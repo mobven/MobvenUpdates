@@ -19,8 +19,8 @@ extension RemoteConfig {
     
     /// MobvenUpdates-specific `RemoteConfig` keys.
     enum Keys: String {
-        case currentBuildNumber = "mobvenupdates_current_build_number"
-        case requiredBuildNumber = "mobvenupdates_required_build_number"
+        case currentBuildNumber = "mu_ios_current_build_number"
+        case requiredBuildNumber = "mu_ios_required_build_number"
     }
     
     var currentBuildNumber: Int? {

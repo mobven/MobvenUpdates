@@ -68,12 +68,16 @@ extension MobvenUpdates {
     private func checkUpdatesAfterRemoteConfig(_ remoteConfigResult: MobvenUpdatesResult?, _ completion: @escaping ((MobvenUpdatesResult) -> Void)) {
         checkUpdates { (result) in
             if result.hasUpdate, let remoteConfigResult = remoteConfigResult {
-                completion(
-                    MobvenUpdatesResult(hasUpdate: remoteConfigResult.hasUpdate,
-                                        isForce: remoteConfigResult.isForce,
-                                        appStoreUrl: result.appStoreUrl))
+                DispatchQueue.main.async {
+                    completion(
+                        MobvenUpdatesResult(hasUpdate: remoteConfigResult.hasUpdate,
+                                            isForce: remoteConfigResult.isForce,
+                                            appStoreUrl: result.appStoreUrl))
+                }
             } else {
-                completion(result)
+                DispatchQueue.main.async {
+                    completion(result)
+                }
             }
         }
     }

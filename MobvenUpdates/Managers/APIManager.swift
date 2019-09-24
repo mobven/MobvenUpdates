@@ -16,9 +16,13 @@ internal struct APIManager {
         checkIfUpdateAvailable { (result) in
             let storeURL = MobvenUpdates.shared.appStoreURL ?? result?.appStoreUrl
             if let result = result, result.version != MobvenUpdates.shared.currentVersion {
-                completion(MobvenUpdatesResult(hasUpdate: true, appStoreUrl: storeURL))
+                DispatchQueue.main.async {
+                    completion(MobvenUpdatesResult(hasUpdate: true, appStoreUrl: storeURL))
+                }
             } else {
-                completion(MobvenUpdatesResult(hasUpdate: false, appStoreUrl: storeURL))
+                DispatchQueue.main.async {
+                    completion(MobvenUpdatesResult(hasUpdate: false, appStoreUrl: storeURL))
+                }
             }
         }
     }

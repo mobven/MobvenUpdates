@@ -37,6 +37,7 @@
 		6D93D09C2327B66B007AA006 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09B2327B66B007AA006 /* APIManager.swift */; };
 		6D93D09E2327B6EC007AA006 /* ItunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09D2327B6EC007AA006 /* ItunesModel.swift */; };
 		6D93D0A02327E2DA007AA006 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D93D09F2327E2DA007AA006 /* StringExtension.swift */; };
+		6DDBB7FB233C028000F904B1 /* MobvenUpdatesAnalyticsNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBB7FA233C028000F904B1 /* MobvenUpdatesAnalyticsNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		6D93D0AB2327EFA8007AA006 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
 		6D93D0AC2327EFA8007AA006 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/nanopb.framework"; sourceTree = "<group>"; };
 		6D93D0AD2327EFA8007AA006 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = "MobvenUpdates+RemoteConfig/ThirdPartyConfigs/Firebase/FirebaseRemoteConfig.framework"; sourceTree = "<group>"; };
+		6DDBB7FA233C028000F904B1 /* MobvenUpdatesAnalyticsNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobvenUpdatesAnalyticsNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				6D93D0922327ABDD007AA006 /* Models */,
 				6D57C3C6231FFA20001B669A /* MobvenUpdate+RemoteConfig.swift */,
 				6D57C3BD231FE2B6001B669A /* MobvenUpdate_RemoteConfig.h */,
+				6DDBB7FA233C028000F904B1 /* MobvenUpdatesAnalyticsNames.swift */,
 				6D57C3BE231FE2B6001B669A /* Info.plist */,
 			);
 			path = "MobvenUpdates+RemoteConfig";
@@ -342,6 +345,7 @@
 				6D308F902338BF250007FA60 /* MobvenUpdates.swift in Sources */,
 				6D308F912338BF2F0007FA60 /* MobvenUpdatesResult.swift in Sources */,
 				6D308F922338BF320007FA60 /* ItunesModel.swift in Sources */,
+				6DDBB7FB233C028000F904B1 /* MobvenUpdatesAnalyticsNames.swift in Sources */,
 				6D308F932338BF350007FA60 /* StringExtension.swift in Sources */,
 				6D308F942338BF370007FA60 /* APIManager.swift in Sources */,
 			);

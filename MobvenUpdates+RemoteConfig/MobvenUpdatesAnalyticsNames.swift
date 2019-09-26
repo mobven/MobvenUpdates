@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseAnalytics
 
 /// Game achievement ID (NSString).
 /// <pre>
@@ -15,7 +16,7 @@ import Foundation
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterAchievementID = "achievement_id"
+public let MobvenUpdatesAnalyticsParameterAchievementID = AnalyticsParameterAchievementID
 
 /// Ad Network Click ID (NSString). Used for network-specific click IDs which vary in format.
 /// <pre>
@@ -24,7 +25,7 @@ public let AnalyticsParameterAchievementID = "achievement_id"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterAdNetworkClickID = "aclid"
+public let MobvenUpdatesAnalyticsParameterAdNetworkClickID = AnalyticsParameterAdNetworkClickID
 
 /// The store or affiliation from which this transaction occurred (NSString).
 /// <pre>
@@ -33,7 +34,7 @@ public let AnalyticsParameterAdNetworkClickID = "aclid"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterAffiliation = "affiliation"
+public let MobvenUpdatesAnalyticsParameterAffiliation = AnalyticsParameterAffiliation
 
 /// The individual campaign name, slogan, promo code, etc. Some networks have pre-defined macro to
 /// capture campaign information, otherwise can be populated by developer. Highly Recommended
@@ -44,7 +45,7 @@ public let AnalyticsParameterAffiliation = "affiliation"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCampaign = "campaign"
+public let MobvenUpdatesAnalyticsParameterCampaign = AnalyticsParameterCampaign
 
 /// Character used in game (NSString).
 /// <pre>
@@ -53,7 +54,7 @@ public let AnalyticsParameterCampaign = "campaign"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCharacter = "character"
+public let MobvenUpdatesAnalyticsParameterCharacter = AnalyticsParameterCharacter
 
 /// The checkout step (1..N) (unsigned 64-bit integer as NSNumber).
 /// <pre>
@@ -62,7 +63,7 @@ public let AnalyticsParameterCharacter = "character"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCheckoutStep = "checkout_step"
+public let MobvenUpdatesAnalyticsParameterCheckoutStep = AnalyticsParameterCheckoutStep
 
 /// Some option on a step in an ecommerce flow (NSString).
 /// <pre>
@@ -73,7 +74,7 @@ public let AnalyticsParameterCheckoutStep = "checkout_step"
 /// </pre>
 
 /// Campaign content (NSString).
-public let AnalyticsParameterContent = "content"
+public let MobvenUpdatesAnalyticsParameterContent = AnalyticsParameterContent
 
 /// Type of content selected (NSString).
 /// <pre>
@@ -82,7 +83,7 @@ public let AnalyticsParameterContent = "content"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterContentType = "content_type"
+public let MobvenUpdatesAnalyticsParameterContentType = AnalyticsParameterContentType
 
 /// Coupon code for a purchasable item (NSString).
 /// <pre>
@@ -91,7 +92,7 @@ public let AnalyticsParameterContentType = "content_type"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCoupon = "coupon"
+public let MobvenUpdatesAnalyticsParameterCoupon = AnalyticsParameterCoupon
 
 /// Campaign custom parameter (NSString). Used as a method of capturing custom data in a campaign.
 /// Use varies by network.
@@ -101,7 +102,7 @@ public let AnalyticsParameterCoupon = "coupon"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCP1 = "cp1"
+public let MobvenUpdatesAnalyticsParameterCP1 = AnalyticsParameterCP1
 
 /// The name of a creative used in a promotional spot (NSString).
 /// <pre>
@@ -110,7 +111,7 @@ public let AnalyticsParameterCP1 = "cp1"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCreativeName = "creative_name"
+public let MobvenUpdatesAnalyticsParameterCreativeName = AnalyticsParameterCreativeName
 
 /// The name of a creative slot (NSString).
 /// <pre>
@@ -119,7 +120,7 @@ public let AnalyticsParameterCreativeName = "creative_name"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCreativeSlot = "creative_slot"
+public let MobvenUpdatesAnalyticsParameterCreativeSlot = AnalyticsParameterCreativeSlot
 
 /// Purchase currency in 3-letter <a href="http://en.wikipedia.org/wiki/ISO_4217#Active_codes">
 /// ISO_4217</a> format (NSString).
@@ -129,7 +130,7 @@ public let AnalyticsParameterCreativeSlot = "creative_slot"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterCurrency = "currency"
+public let MobvenUpdatesAnalyticsParameterCurrency = AnalyticsParameterCurrency
 
 /// Flight or Travel destination (NSString).
 /// <pre>
@@ -138,7 +139,7 @@ public let AnalyticsParameterCurrency = "currency"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterDestination = "destination"
+public let MobvenUpdatesAnalyticsParameterDestination = AnalyticsParameterDestination
 
 /// The arrival date, check-out date or rental end date for the item. This should be in
 /// YYYY-MM-DD format (NSString).
@@ -148,7 +149,7 @@ public let AnalyticsParameterDestination = "destination"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterEndDate = "end_date"
+public let MobvenUpdatesAnalyticsParameterEndDate = AnalyticsParameterEndDate
 
 /// Flight number for travel events (NSString).
 /// <pre>
@@ -157,7 +158,7 @@ public let AnalyticsParameterEndDate = "end_date"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterFlightNumber = "flight_number"
+public let MobvenUpdatesAnalyticsParameterFlightNumber = AnalyticsParameterFlightNumber
 
 /// Group/clan/guild ID (NSString).
 /// <pre>
@@ -166,7 +167,7 @@ public let AnalyticsParameterFlightNumber = "flight_number"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterGroupID = "group_id"
+public let MobvenUpdatesAnalyticsParameterGroupID = AnalyticsParameterGroupID
 
 /// Index of an item in a list (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -175,7 +176,7 @@ public let AnalyticsParameterGroupID = "group_id"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterIndex = "index"
+public let MobvenUpdatesAnalyticsParameterIndex = AnalyticsParameterIndex
 
 /// Item brand (NSString).
 /// <pre>
@@ -184,7 +185,7 @@ public let AnalyticsParameterIndex = "index"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemBrand = "item_brand"
+public let MobvenUpdatesAnalyticsParameterItemBrand = AnalyticsParameterItemBrand
 
 /// Item category (NSString).
 /// <pre>
@@ -193,7 +194,7 @@ public let AnalyticsParameterItemBrand = "item_brand"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemCategory = "item_category"
+public let MobvenUpdatesAnalyticsParameterItemCategory = AnalyticsParameterItemCategory
 
 /// Item ID (NSString).
 /// <pre>
@@ -202,7 +203,7 @@ public let AnalyticsParameterItemCategory = "item_category"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemID = "item_id"
+public let MobvenUpdatesAnalyticsParameterItemID = AnalyticsParameterItemID
 
 /// The Google <a href="https://developers.google.com/places/place-id">Place ID</a> (NSString) that
 /// corresponds to the associated item. Alternatively, you can supply your own custom Location ID.
@@ -212,7 +213,7 @@ public let AnalyticsParameterItemID = "item_id"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemLocationID = "item_location_id"
+public let MobvenUpdatesAnalyticsParameterItemLocationID = AnalyticsParameterItemLocationID
 
 /// Item name (NSString).
 /// <pre>
@@ -221,7 +222,7 @@ public let AnalyticsParameterItemLocationID = "item_location_id"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemName = "item_name"
+public let MobvenUpdatesAnalyticsParameterItemName = AnalyticsParameterItemName
 
 /// The list in which the item was presented to the user (NSString).
 /// <pre>
@@ -230,7 +231,7 @@ public let AnalyticsParameterItemName = "item_name"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemList = "item_list"
+public let MobvenUpdatesAnalyticsParameterItemList = AnalyticsParameterItemList
 
 /// Item variant (NSString).
 /// <pre>
@@ -239,7 +240,7 @@ public let AnalyticsParameterItemList = "item_list"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterItemVariant = "item_variant"
+public let MobvenUpdatesAnalyticsParameterItemVariant = AnalyticsParameterItemVariant
 
 /// Level in game (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -248,7 +249,7 @@ public let AnalyticsParameterItemVariant = "item_variant"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterLevel = "level"
+public let MobvenUpdatesAnalyticsParameterLevel = AnalyticsParameterLevel
 
 /// Location (NSString). The Google <a href="https://developers.google.com/places/place-id">Place ID
 /// </a> that corresponds to the associated event. Alternatively, you can supply your own custom
@@ -259,7 +260,7 @@ public let AnalyticsParameterLevel = "level"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterLocation = "location"
+public let MobvenUpdatesAnalyticsParameterLocation = AnalyticsParameterLocation
 
 /// The advertising or marketing medium, for example: cpc, banner, email, push. Highly recommended
 /// (NSString).
@@ -269,7 +270,7 @@ public let AnalyticsParameterLocation = "location"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterMedium = "medium"
+public let MobvenUpdatesAnalyticsParameterMedium = AnalyticsParameterMedium
 
 /// Number of nights staying at hotel (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -278,7 +279,7 @@ public let AnalyticsParameterMedium = "medium"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterNumberOfNights = "number_of_nights"
+public let MobvenUpdatesAnalyticsParameterNumberOfNights = AnalyticsParameterNumberOfNights
 
 /// Number of passengers traveling (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -287,7 +288,7 @@ public let AnalyticsParameterNumberOfNights = "number_of_nights"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterNumberOfPassengers = "number_of_passengers"
+public let MobvenUpdatesAnalyticsParameterNumberOfPassengers = AnalyticsParameterNumberOfPassengers
 
 /// Number of rooms for travel events (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -296,7 +297,7 @@ public let AnalyticsParameterNumberOfPassengers = "number_of_passengers"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterNumberOfRooms = "number_of_rooms"
+public let MobvenUpdatesAnalyticsParameterNumberOfRooms = AnalyticsParameterNumberOfRooms
 
 /// Flight or Travel origin (NSString).
 /// <pre>
@@ -305,7 +306,7 @@ public let AnalyticsParameterNumberOfRooms = "number_of_rooms"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterOrigin = "origin"
+public let MobvenUpdatesAnalyticsParameterOrigin = AnalyticsParameterOrigin
 
 /// Purchase price (double as NSNumber).
 /// <pre>
@@ -315,7 +316,7 @@ public let AnalyticsParameterOrigin = "origin"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterPrice = "price"
+public let MobvenUpdatesAnalyticsParameterPrice = AnalyticsParameterPrice
 
 /// Purchase quantity (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -324,7 +325,7 @@ public let AnalyticsParameterPrice = "price"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterQuantity = "quantity"
+public let MobvenUpdatesAnalyticsParameterQuantity = AnalyticsParameterQuantity
 
 /// Score in game (signed 64-bit integer as NSNumber).
 /// <pre>
@@ -333,7 +334,7 @@ public let AnalyticsParameterQuantity = "quantity"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterScore = "score"
+public let MobvenUpdatesAnalyticsParameterScore = AnalyticsParameterScore
 
 /// The search string/keywords used (NSString).
 /// <pre>
@@ -342,7 +343,7 @@ public let AnalyticsParameterScore = "score"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterSearchTerm = "search_term"
+public let MobvenUpdatesAnalyticsParameterSearchTerm = AnalyticsParameterSearchTerm
 
 /// Shipping cost (double as NSNumber).
 /// <pre>
@@ -352,7 +353,7 @@ public let AnalyticsParameterSearchTerm = "search_term"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterShipping = "shipping"
+public let MobvenUpdatesAnalyticsParameterShipping = AnalyticsParameterShipping
 
 /// Sign up method (NSString).
 /// <pre>
@@ -363,7 +364,7 @@ public let AnalyticsParameterShipping = "shipping"
 /// </pre>
 ///
 /// <b>This constant has been deprecated. Use Method constant instead.</b>
-public let AnalyticsParameterSignUpMethod = "sign_up_method"
+public let MobvenUpdatesAnalyticsParameterSignUpMethod = AnalyticsParameterSignUpMethod
 
 /// A particular approach used in an operation; for example, "facebook" or "email" in the context
 /// of a sign_up or login event.  (NSString).
@@ -373,7 +374,7 @@ public let AnalyticsParameterSignUpMethod = "sign_up_method"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterMethod = "method"
+public let MobvenUpdatesAnalyticsParameterMethod = AnalyticsParameterMethod
 
 /// The origin of your traffic, such as an Ad network (for example, google) or partner (urban
 /// airship). Identify the advertiser, site, publication, etc. that is sending traffic to your
@@ -384,7 +385,7 @@ public let AnalyticsParameterMethod = "method"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterSource = "source"
+public let MobvenUpdatesAnalyticsParameterSource = AnalyticsParameterSource
 
 /// The departure date, check-in date or rental start date for the item. This should be in
 /// YYYY-MM-DD format (NSString).
@@ -394,7 +395,7 @@ public let AnalyticsParameterSource = "source"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterStartDate = "start_date"
+public let MobvenUpdatesAnalyticsParameterStartDate = AnalyticsParameterStartDate
 
 /// Tax amount (double as NSNumber).
 /// <pre>
@@ -404,7 +405,7 @@ public let AnalyticsParameterStartDate = "start_date"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterTax = "tax"
+public let MobvenUpdatesAnalyticsParameterTax = AnalyticsParameterTax
 
 /// If you're manually tagging keyword campaigns, you should use utm_term to specify the keyword
 /// (NSString).
@@ -414,7 +415,7 @@ public let AnalyticsParameterTax = "tax"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterTerm = "term"
+public let MobvenUpdatesAnalyticsParameterTerm = AnalyticsParameterTerm
 
 /// A single ID for a ecommerce group transaction (NSString).
 /// <pre>
@@ -423,7 +424,7 @@ public let AnalyticsParameterTerm = "term"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterTransactionID = "transaction_id"
+public let MobvenUpdatesAnalyticsParameterTransactionID = AnalyticsParameterTransactionID
 
 /// Travel class (NSString).
 /// <pre>
@@ -432,7 +433,7 @@ public let AnalyticsParameterTransactionID = "transaction_id"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterTravelClass = "travel_class"
+public let MobvenUpdatesAnalyticsParameterTravelClass = AnalyticsParameterTravelClass
 
 /// A context-specific numeric value which is accumulated automatically for each event type. This is
 /// a general purpose parameter that is useful for accumulating a key metric that pertains to an
@@ -451,7 +452,7 @@ public let AnalyticsParameterTravelClass = "travel_class"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterValue = "value"
+public let MobvenUpdatesAnalyticsParameterValue = AnalyticsParameterValue
 
 /// Name of virtual currency type (NSString).
 /// <pre>
@@ -460,7 +461,7 @@ public let AnalyticsParameterValue = "value"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterVirtualCurrencyName = "virtual_currency_name"
+public let MobvenUpdatesAnalyticsParameterVirtualCurrencyName = AnalyticsParameterVirtualCurrencyName
 
 /// The name of a level in a game (NSString).
 /// <pre>
@@ -469,7 +470,7 @@ public let AnalyticsParameterVirtualCurrencyName = "virtual_currency_name"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterLevelName = "level_name"
+public let MobvenUpdatesAnalyticsParameterLevelName = AnalyticsParameterLevelName
 
 /// The result of an operation. Specify 1 to indicate success and 0 to indicate failure (unsigned
 /// integer as NSNumber).
@@ -479,7 +480,7 @@ public let AnalyticsParameterLevelName = "level_name"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterSuccess = "success"
+public let MobvenUpdatesAnalyticsParameterSuccess = AnalyticsParameterSuccess
 
 /// Indicates that the associated event should either extend the current session
 /// or start a new session if no session was active when the event was logged.
@@ -491,4 +492,4 @@ public let AnalyticsParameterSuccess = "success"
 ///       // ...
 ///     };
 /// </pre>
-public let AnalyticsParameterExtendSession = "extend_session"
+public let MobvenUpdatesAnalyticsParameterExtendSession = AnalyticsParameterExtendSession
